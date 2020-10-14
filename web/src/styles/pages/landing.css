@@ -2,4 +2,34 @@
   width: 100vw;
   height: 100vh;
   background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-landing .content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+
+  height: 100%;
+  max-height: 500px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-wrapper .location {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.content-wrapper .enter-app {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
