@@ -10,3 +10,5 @@ leaflet
 react-leaflet e (npm install @types/react-leaflet -D)
 
 BACK END
+npm init -y
+npm install express
