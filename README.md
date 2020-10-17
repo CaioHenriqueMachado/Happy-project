@@ -33,5 +33,7 @@ yarn typeorm migration:revert
 
 yarn add multer  e (yarn add @types/multer)(upload de imagens)
 
+Para capturar erros
+yarn add express-async-errors
 
 
