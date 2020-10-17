@@ -15,6 +15,9 @@ npm install express e (npm install @types/express -D)
 npm install typescript -D
 npm install typeorm sqlite3
 
+
+npm install ts-node-dev -D
+
 criar arquivo tsc
 npm tsc --init
 
@@ -26,7 +29,9 @@ rodar:
 yarn typeorm migration:run
 yarn typeorm migration:revert
 (usando software BEEKEEPER STUDIO)
+----
+
+yarn add multer  e (yarn add @types/multer)(upload de imagens)
 
 
 
-npm install ts-node-dev -D
