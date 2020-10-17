@@ -31,9 +31,13 @@ yarn typeorm migration:revert
 (usando software BEEKEEPER STUDIO)
 ----
 
-yarn add multer  e (yarn add @types/multer)(upload de imagens)
+yarn add multer -D  e (yarn add @types/multer)(upload de imagens)
 
 Para capturar erros
-yarn add express-async-errors
+yarn add express-async-errors e (yarn @types/express-async-errors)
+
+metodo de validação 
+yarn add yup e (npm install @types/yup -D)
 
 
+yarn add cors
