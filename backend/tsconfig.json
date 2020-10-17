@@ -5,6 +5,7 @@
     "module": "commonjs",
     "lib": ["esnext"],
     "strict": true,
+    "strictPropertyInitialization": false,
     "sourceMap": true,
     "declaration": true,
     "esModuleInterop": true,

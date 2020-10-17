@@ -24,7 +24,7 @@ criar:
 yarn typeorm migration:create -n create_orphanages
 rodar:
 yarn typeorm migration:run
-
+yarn typeorm migration:revert
 (usando software BEEKEEPER STUDIO)
 
 
