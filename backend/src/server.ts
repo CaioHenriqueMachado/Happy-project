@@ -1,10 +1,17 @@
 import express from 'express';
 
+import './database/connection';
+
 const app = express();
 
-app.get('/users', () => {
-  console.log('')
+app.use(express.json());
+
+app.get('/users', (request, response) => {
+  return response.json({
+    message:'oi'
+  });
 });
 
+
+
 app.listen(3333);
-t

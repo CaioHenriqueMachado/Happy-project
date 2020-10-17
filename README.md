@@ -13,7 +13,7 @@ BACK END
 npm init -y
 npm install express e (npm install @types/express -D)
 npm install typescript -D
-
+npm install typeorm sqlite3
 
 criar arquivo tsc
 npm tsc --init
