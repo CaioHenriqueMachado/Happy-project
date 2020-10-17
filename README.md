@@ -18,4 +18,15 @@ npm install typeorm sqlite3
 criar arquivo tsc
 npm tsc --init
 
+
+MIGRATES:
+criar:
+yarn typeorm migration:create -n create_orphanages
+rodar:
+yarn typeorm migration:run
+
+(usando software BEEKEEPER STUDIO)
+
+
+
 npm install ts-node-dev -D
