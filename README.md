@@ -41,3 +41,6 @@ yarn add yup e (npm install @types/yup -D)
 
 
 yarn add cors
+
+
+yarn add axios
