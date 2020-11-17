@@ -1,6 +1,13 @@
 # Happy-project
 Feito no NLW 3
 
+CONECTAR NO FRONTEND
+yarn start
+
+CONECTAR NO BACKEND
+yarn dev
+
+
 
 FRONT END
 npm install ...
