@@ -7,7 +7,8 @@ yarn start
 CONECTAR NO BACKEND
 yarn dev
 
-
+CONECTAR NO MOBILE
+yarn start
 
 FRONT END
 npm install ...
@@ -51,3 +52,13 @@ yarn add cors
 
 
 yarn add axios
+
+
+
+
+-------------------------------
+MOBILE
+
+expo-cli
+expo google fonts
+expo install react-native-maps
