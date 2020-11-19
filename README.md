@@ -18,7 +18,10 @@
   </a> | 
   <a href="#licenca">
     Licença
-  </a>
+  </a> | 
+  <a href="#instructions">
+    Instruções Avançadas
+  </a> 
 </p>
 
 <img src="./image/line.png" alt="line" width="100%">
@@ -63,7 +66,8 @@
  - React Native
  - Expo
  - TypeScript
-
+ - BEEKEEPER STUDIO
+ - INSOMNIA
 
 
 <img src="./image/line.png" alt="line" width="100%">
@@ -77,82 +81,92 @@ Esse projeto está sob a licença MIT.
 
 
 
+<h2 id="instructions" >Instruções Avançadas</h2>
+
+### O projeto contém três pastas, para inicar cada uma faça:
+
+1. Para conectar à pasta (frontend): `yarn start` 
+
+2. Para conectar à pasta (backend): `yarn dev`
+
+2. Para conectar à pasta (mobile): `yarn start`
 
 
+### Dependências
+
+FRONTEND:
+1. Ícones do react (react-icons): `yarn add react-icons` 
+
+2. React Router DOM: `yarn add react-router-dom` e `yarn add @types/react-router-dom - D`
+
+3. Leaflet: `yarn add react-leaflet` e `yarn add @types/react-leaflet -D`
 
 
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+BACKEND:
+
+1. Criar projeto: `npm init -y`
+
+2. TypeScript:  `npm install typescript -D`
+
+3. Express: `yarn add express` e `yarn add @types/express -D`
+
+4. `npm install typeorm`
+
+5. `npm install sqlite3`
+
+6. `npm install ts-node-dev -D`
 
 
-
-# Happy-project
-Feito no NLW 3
-
-CONECTAR NO FRONTEND
-yarn start
-
-CONECTAR NO BACKEND
-yarn dev
-
-CONECTAR NO MOBILE
-yarn start
-
-FRONT END
-npm install ...
-react-icons
-react-router-dom e (npm install @types/react-router-dom - D)
-leaflet
-react-leaflet e (npm install @types/react-leaflet -D)
-
-BACK END
-npm init -y
-npm install express e (npm install @types/express -D)
-npm install typescript -D
-npm install typeorm sqlite3
-
-
-npm install ts-node-dev -D
-
-criar arquivo tsc
-npm tsc --init
-
+<br>
 
 MIGRATES:
-criar:
-yarn typeorm migration:create -n create_orphanages
-rodar:
-yarn typeorm migration:run
-yarn typeorm migration:revert
-(usando software BEEKEEPER STUDIO)
-----
+1. Criar: `yarn typeorm migration:create -n create_orphanages`
+2. Rodar: `yarn typeorm migration:run`
+3. Reverter: `yarn typeorm migration:revert`
+4. Instalar software: BEEKEEPER STUDIO
 
-yarn add multer -D  e (yarn add @types/multer)(upload de imagens)
-
-Para capturar erros
-yarn add express-async-errors e (yarn @types/express-async-errors)
-
-metodo de validação 
-yarn add yup e (npm install @types/yup -D)
+<br>
+IMAGES:
+1 . Upload: `yarn add multer -D` e `yarn add @types/multer
 
 
-yarn add cors
+<br>
+VALIDAÇÃO DE ERROS:
+
+1.Para erros: `yarn add express-async-errors` e `yarn @types/express-async-errors
+
+2. Validação: `yarn add yup` e `npm install @types/yup -D
 
 
-yarn add axios
+<br>
+ROTAS:
+1. CORS: `yarn add cors`
+
+2. AXIOS: `yarn add axios`
 
 
-
-
--------------------------------
+<img src="./image/line.png" alt="line" width="100%">
+<br>
 MOBILE
 
-expo-cli
-expo google fonts (expo install @expo-google-fonts/nunito expo-font)
-expo install react-native-maps
+1. EXPO:  `expo-cli`
 
-para rotas: react navigation (yarn add @react-navigation/native)
-pacotes caso use o expo (expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view)
-escolhendo o tipo de navegação: foi usada a STACK (yarn add @react-navigation/stack)
+2. EXPO GOOGLE FONTS: `expo install @expo-google-fonts/nunito expo-font`
 
-axios (yarn add axios) (para chamadas http)
+3. EXPO MAPS: `expo install react-native-maps`
 
-(expo install expo-image-picker)
+ROTAS:
+4. REACT NAVIGATION: `yarn add @react-navigation/native`
+OBS:
+ - Pacotes caso use o expo:
+`expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
+ - Escolhendo o tipo de navegação: foi usada a STACK 
+`yarn add @react-navigation/stack`
+
+Para chamadas HTTP:
+5. AXIOS: `yarn add axios` (para chamadas http)
+
+Para tratamento de imagens:
+6. `expo install expo-image-picker`
