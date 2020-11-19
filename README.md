@@ -66,3 +66,5 @@ expo install react-native-maps
 para rotas: react navigation (yarn add @react-navigation/native)
 pacotes caso use o expo (expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view)
 escolhendo o tipo de navegação: foi usada a STACK (yarn add @react-navigation/stack)
+
+axios (yarn add axios) (para chamadas http)

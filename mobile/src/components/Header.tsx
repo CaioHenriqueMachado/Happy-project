@@ -14,7 +14,7 @@ export default function Header( { title, showCancel = true } : HeaderProps) {
   const navigation = useNavigation();
 
   function handleGoBackToHomepage(){
-    navigation.navigate('OrphanageMap');
+    navigation.navigate('OrphanagesMap');
   }
 
   return ( 
@@ -26,7 +26,7 @@ export default function Header( { title, showCancel = true } : HeaderProps) {
       <Text style={styles.title}>Texto</Text>
 
       { showCancel ? (
-        <BorderlessButton onPress={() => {}}>
+        <BorderlessButton onPress={handleGoBackToHomepage}>
           <Feather name="x" size={24} color="#ff669d" />
         </BorderlessButton>
       ):(

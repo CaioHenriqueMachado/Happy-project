@@ -3,17 +3,24 @@ import { ScrollView, View, StyleSheet, Switch, Text, TextInput, TouchableOpacity
 import { Feather } from '@expo/vector-icons';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import * as ImagePicker from 'expo-image-picker';
+// import * as ImagePicker from 'expo-image-picker';
 
 interface OrphanageDataRouteParams {
   position: { latitude: number, longitude: number};
 }
 
 export default function OrphanageData() {
+  const [name, setName] = useState('');
+  const [about, setAbout] = useState('');
+  const [instructions, setInstructions] = useState('');
+  const [opening_hours, setOpeningHours] = useState('');
+  const [open_on_weekends, setOpenOnWeekends] = useState(true);
+
+
   const route = useRoute();
+  
   const navigation = useNavigation();
 
-  const [open_on_weekends, setOpenOnWeekends] = useState(false);
 
   const params = route.params as OrphanageDataRouteParams;
   const position = params.position;
@@ -23,18 +30,18 @@ export default function OrphanageData() {
   }
 
   async function handleSelectImages() {
-    const { status } = await ImagePicker.requestCameraRollPermissionsAsync();
+    // const { status } = await ImagePicker.requestCameraRollPermissionsAsync();
 
     if (status !== 'granted') {
       alert('Eita! Precisamos de acesso às suas fotos...');
     }
 
-    const result = await ImagePicker.launchImageLibraryAsync({
-      allowsEditing: true,
-      quality: 1,
-    });
+    // const result = await ImagePicker.launchImageLibraryAsync({
+    //   allowsEditing: true,
+    //   quality: 1,
+    // });
 
-    console.log(result);
+    // console.log(result);
   }
 
   return (
@@ -44,18 +51,24 @@ export default function OrphanageData() {
       <Text style={styles.label}>Nome</Text>
       <TextInput
         style={styles.input}
+        value={name}
+        onChangeText={setName}
       />
 
       <Text style={styles.label}>Sobre</Text>
       <TextInput
         style={[styles.input, { height: 110 }]}
         multiline
+        value={about}
+        onChangeText={setAbout}
       />
 
-      <Text style={styles.label}>Whatsapp</Text>
+
+      {/* INSERIR BOTÃO WHATSAPP */}
+      {/* <Text style={styles.label}>Whatsapp</Text>
       <TextInput
         style={styles.input}
-      />
+      /> */}
 
       <Text style={styles.label}>Fotos</Text>
       <TouchableOpacity style={styles.imagesInput} onPress={handleSelectImages}>
@@ -73,6 +86,8 @@ export default function OrphanageData() {
       <Text style={styles.label}>Horario de visitas</Text>
       <TextInput
         style={styles.input}
+        value={opening_hours}
+        onChangeText={setOpeningHours}
       />
 
       <View style={styles.switchContainer}>
