@@ -68,3 +68,5 @@ pacotes caso use o expo (expo install react-native-gesture-handler react-native-
 escolhendo o tipo de navegação: foi usada a STACK (yarn add @react-navigation/stack)
 
 axios (yarn add axios) (para chamadas http)
+
+(expo install expo-image-picker)
