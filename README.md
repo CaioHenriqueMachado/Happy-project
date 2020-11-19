@@ -162,13 +162,14 @@ ROTAS:
 4. REACT NAVIGATION: `yarn add @react-navigation/native`
 <br>
 OBS:
- - Pacotes caso use o expo:
-`expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
- - Escolhendo o tipo de navegação: foi usada a STACK 
-`yarn add @react-navigation/stack`
+
+ - Pacotes caso use o expo: `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
+ - Escolhendo o tipo de navegação: (foi usado método STACK): `yarn add @react-navigation/stack`
 
 Para chamadas HTTP:
+
 5. AXIOS: `yarn add axios` (para chamadas http)
 
 Para tratamento de imagens:
+
 6. `expo install expo-image-picker`
