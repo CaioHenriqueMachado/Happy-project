@@ -129,15 +129,15 @@ MIGRATES:
 
 <br>
 IMAGES:
-1 . Upload: `yarn add multer -D` e `yarn add @types/multer
+1. Upload: `yarn add multer -D` e `yarn add @types/multer`
 
 
 <br>
 VALIDAÇÃO DE ERROS:
 
-1.Para erros: `yarn add express-async-errors` e `yarn @types/express-async-errors
+1. Para erros: `yarn add express-async-errors` e `yarn @types/express-async-errors`
 
-2. Validação: `yarn add yup` e `npm install @types/yup -D
+2. Validação: `yarn add yup` e `npm install @types/yup -D`
 
 
 <br>
@@ -158,7 +158,9 @@ MOBILE
 3. EXPO MAPS: `expo install react-native-maps`
 
 ROTAS:
+
 4. REACT NAVIGATION: `yarn add @react-navigation/native`
+<br>
 OBS:
  - Pacotes caso use o expo:
 `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
