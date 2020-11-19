@@ -1,21 +1,24 @@
-<img src="./image/logo.svg" alt="Logo Happy" width="30%">
+<div align="center">
+  <img src="./image/logo.svg" alt="Logo Happy" width="30%">
+</div>
+
 
 <p align="center">
-  <a href="#">
+  <a href="#projeto">
     Projeto 
   </a> | 
-  <a href="#">
+  <a href="#web">
     Layout Web
   </a> | 
-  <a href="#">
+  <a href="#mobile">
     Layout Mobile
   </a> | 
-  <a href="#">
+  <a href="#tecnologias">
     Tecnologias
   </a> | 
-  <a href="#">
+  <a href="#licenca">
     Licença
-  </a> | 
+  </a>
 </p>
 
 <img src="./image/line.png" alt="line" width="100%">
@@ -32,19 +35,27 @@
 
 
 <img src="./image/line.png" alt="line" width="100%">
+<br>
 
-<h2>Projeto</h2>
+<h2 id="projeto" >Projeto</h2>
 <p>O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz. </p>
 
-<br>
+
 <img src="./image/line.png" alt="line" width="100%">
-<h2>Layout</h2>
-
-
 <br>
-<img src="./image/line.png" alt="line" width="100%">
+<h2 id="web">Layout Web</h2>
 
-<h2>Tecnologias</h2>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h2 id="mobile">Layout Mobile</h2>
+
+
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+
+<h2 id="tecnologias" >Tecnologias</h2>
 <p>Esse projeto foi desenvolvido com as seguintes tecnologias: </p>
 
  - Node.js
@@ -54,18 +65,15 @@
  - TypeScript
 
 
-<br>
-<img src="./image/line.png" alt="line" width="100%">
 
-<h2>Licença</h2>
+<img src="./image/line.png" alt="line" width="100%">
+<br>
+<h2 id="licenca" >Licença</h2>
 
 Esse projeto está sob a licença MIT.
 
-
-
-<br>
 <img src="./image/line.png" alt="line" width="100%">
-
+<br>
 
 
 
