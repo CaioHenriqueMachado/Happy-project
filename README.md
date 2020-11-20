@@ -49,12 +49,16 @@
 <h2 id="web">Layout Web</h2>
 
 
+<img src="./image/web/Home.png" alt="web" width="100%" height="400">
+<img src="./image/web/Mapa.png" alt="web" width="100%" height="400">
+<img src="./image/web/Dados.png" alt="web" width="100%" height="600">
+
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
 <h2 id="mobile">Layout Mobile</h2>
 
-<img src="./image/mobile.png" alt="line" width="100%" height="700">
+<img src="./image/mobile.png" alt="mobile" width="100%" height="600">
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
