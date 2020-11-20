@@ -54,6 +54,7 @@
 <br>
 <h2 id="mobile">Layout Mobile</h2>
 
+<img src="./image/mobile.png" alt="line" width="100%" height="700">
 
 <img src="./image/line.png" alt="line" width="100%">
 <br>
